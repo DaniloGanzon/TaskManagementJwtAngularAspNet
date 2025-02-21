@@ -1,0 +1,76 @@
+<div class="task-form-container">
+  <form [formGroup]="taskForm" (ngSubmit)="onSubmit()">
+    <!-- Title Input -->
+    <div class="form-group">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Enter task title"
+        formControlName="title"
+        required
+      />
+      <div *ngIf="taskForm.get('title')?.invalid && taskForm.get('title')?.touched" class="error-feedback">
+        Title is required and cannot exceed 100 characters.
+      </div>
+    </div>
+
+    <!-- Description Input -->
+    <div class="form-group">
+      <textarea
+        class="form-control"
+        placeholder="Enter task description"
+        formControlName="description"
+        required
+      ></textarea>
+      <div *ngIf="taskForm.get('description')?.invalid && taskForm.get('description')?.touched" class="error-feedback">
+        Description is required and cannot exceed 500 characters.
+      </div>
+    </div>
+
+    <!-- Due Date Input -->
+    <div class="form-group">
+      <input
+        type="date"
+        class="form-control"
+        formControlName="dueDate"
+        required
+        [min]="today | date: 'yyyy-MM-dd'"
+      />
+      <div *ngIf="taskForm.get('dueDate')?.invalid && taskForm.get('dueDate')?.touched" class="error-feedback">
+        Please select a valid due date.
+      </div>
+    </div>
+
+    <!-- Category Dropdown -->
+    <div class="form-group">
+      <select class="form-control" formControlName="category" required>
+        <option value="" disabled selected>Select task category</option>
+        <option value="work">Work</option>
+        <option value="personal">Personal</option>
+        <option value="shopping">Shopping</option>
+        <option value="others">Others</option>
+      </select>
+      <div *ngIf="taskForm.get('category')?.invalid && taskForm.get('category')?.touched" class="error-feedback">
+        Category is required.
+      </div>
+    </div>
+
+    <!-- Submit Button -->
+    <div class="form-actions">
+      <button type="submit" class="btn btn-success w-100 rounded-3" [disabled]="taskForm.invalid">
+        {{ isEditing ? 'Update Task' : 'Create Task' }}
+      </button>
+      <button
+        type="button"
+        class="btn btn-warning w-100 rounded-3 mt-2"
+        (click)="onCancel()"
+      >
+        Cancel
+      </button>
+    </div>
+
+    <div *ngIf="errorMessage" class="error-feedback mt-2">
+      {{ errorMessage }}
+    </div>
+  </form>
+</div>

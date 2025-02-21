@@ -1,0 +1,11 @@
+<!-- home.component.html -->
+<div class="container mt-4">
+    <!-- Add task button -->
+    <div class="d-flex justify-content-between mb-3">
+      <button class="btn btn-primary" [routerLink]="['/home/new']">Add Task</button>
+    </div>
+    
+    <!-- Display task lists -->
+    <router-outlet></router-outlet>
+  </div>
+  

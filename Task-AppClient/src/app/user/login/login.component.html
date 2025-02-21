@@ -1,0 +1,64 @@
+<div class="container">
+    <div class="row vh-100 align-items-center">
+      <div class="col-xxl-6 offset-xxl-3 col-lg-8 offset-lg-2 col-10 offset-1">
+        <div class="row rounded-4 border-0 shadow-lg bg-white" style="min-height:450px;">
+          <div class="col-md-5 d-md-flex d-none bg-success rounded-start-4 align-items-center justify-content-center">
+            <div class="text-center text-white">
+              <img src="authec-logo.png" class="w-50 mb-3">
+              <h2 class="fw-bolder">Auth EC</h2>
+            </div>
+          </div>
+          <div class="col-md-7 col-12 d-flex justify-content-start align-items-center">
+            <div class="p-5 w-100" >
+                <div class="container">
+                    <div class="mb-4 h2 text-success">
+                        Sign up
+                    </div>
+                    <form [formGroup]="form" (ngSubmit)="onSubmit()"  #userForm="ngForm">
+                    
+                        <div class="mb-3">
+                            <label class="form-label">Email*</label>
+                            <input type="email" class="form-control bg-body-secondary" formControlName="email">
+                    
+                            <div *ngIf="form.controls.email.invalid && (form.controls.email.touched || form.controls.email.dirty)">
+                                <div class="text-danger" *ngIf="form.controls.email.errors?.['required']">
+                                    Email is required
+                                </div>
+                                <div class="text-danger" *ngIf="form.controls.email.errors?.['email']">
+                                    Email is Invalid
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="mb-3">
+                            <label class="form-label">Enter Password*</label>
+                            <input type="password" class="form-control bg-body-secondary" formControlName="password">
+                    
+                            <div *ngIf="form.controls.password.invalid && (form.controls.password.touched || form.controls.password.dirty)">
+                                <div class="text-danger" *ngIf="form.controls.password.errors?.['required']">
+                                    Password is required
+                                </div>
+                                <div class="text-danger" *ngIf="form.controls.password.errors?.['minlength']">
+                                    At least 6 characters
+                                </div>
+                                <div class="text-danger" *ngIf="form.controls.password.errors?.['weakPassword']">
+                                    Contain special character
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <button  class="btn btn-success w-100 rounded-3" type="submit" [disabled]="userForm.invalid">
+                                Login
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+

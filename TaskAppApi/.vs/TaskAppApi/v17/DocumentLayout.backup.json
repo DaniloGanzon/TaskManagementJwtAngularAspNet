@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|c:\\users\\aki ganzon\\desktop\\projects\\taskapp\\taskappapi\\taskappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|solutionrelative:taskappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|c:\\users\\aki ganzon\\desktop\\projects\\taskapp\\taskappapi\\taskappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|solutionrelative:taskappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|c:\\users\\aki ganzon\\desktop\\projects\\taskapp\\taskappapi\\taskappapi\\services\\usertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|solutionrelative:taskappapi\\services\\usertaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|c:\\users\\aki ganzon\\desktop\\projects\\taskapp\\taskappapi\\taskappapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|solutionrelative:taskappapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|c:\\users\\aki ganzon\\desktop\\projects\\taskapp\\taskappapi\\taskappapi\\dtos\\usertaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|solutionrelative:taskappapi\\dtos\\usertaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|c:\\users\\aki ganzon\\desktop\\projects\\taskapp\\taskappapi\\taskappapi\\models\\usertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|solutionrelative:taskappapi\\models\\usertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|c:\\users\\aki ganzon\\desktop\\projects\\taskapp\\taskappapi\\taskappapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|solutionrelative:taskappapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|c:\\users\\aki ganzon\\desktop\\projects\\taskapp\\taskappapi\\taskappapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|solutionrelative:taskappapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|c:\\users\\aki ganzon\\desktop\\projects\\taskapp\\taskappapi\\taskappapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|solutionrelative:taskappapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|c:\\users\\aki ganzon\\desktop\\projects\\taskapp\\taskappapi\\taskappapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E833DD-A397-4105-BC45-65CA19C91D8E}|TaskAppApi\\TaskAppApi.csproj|solutionrelative:taskappapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\Program.cs",
+              "RelativeDocumentMoniker": "TaskAppApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\Program.cs",
+              "RelativeToolTip": "TaskAppApi\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T12:47:37.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "TaskAppApi\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "TaskAppApi\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAIAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T01:16:05.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TaskAppApi\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TaskAppApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T12:46:00.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserTask.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\Models\\UserTask.cs",
+              "RelativeDocumentMoniker": "TaskAppApi\\Models\\UserTask.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\Models\\UserTask.cs",
+              "RelativeToolTip": "TaskAppApi\\Models\\UserTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T12:41:20.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "TaskAppApi\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "TaskAppApi\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T02:26:13.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "TaskAppApi\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "TaskAppApi\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T13:57:58.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserTaskService.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\Services\\UserTaskService.cs",
+              "RelativeDocumentMoniker": "TaskAppApi\\Services\\UserTaskService.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\Services\\UserTaskService.cs",
+              "RelativeToolTip": "TaskAppApi\\Services\\UserTaskService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAEUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T00:34:07.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserTaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\DTOs\\UserTaskDto.cs",
+              "RelativeDocumentMoniker": "TaskAppApi\\DTOs\\UserTaskDto.cs",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\DTOs\\UserTaskDto.cs",
+              "RelativeToolTip": "TaskAppApi\\DTOs\\UserTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T01:07:23.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskAppApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\appsettings.json",
+              "RelativeToolTip": "TaskAppApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-20T10:31:09.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TaskAppApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Aki Ganzon\\Desktop\\PROJECTS\\TaskApp\\TaskAppApi\\TaskAppApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TaskAppApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-19T08:25:10.271Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

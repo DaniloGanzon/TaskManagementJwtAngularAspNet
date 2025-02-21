@@ -1,0 +1,48 @@
+<div class="container mt-4">
+  <c-row>
+    <!-- Loop through userTasks to create a card for each task -->
+    <c-col *ngFor="let task of userTasks" [lg]="4">
+      <c-card [color]="getRandomHeaderColor()"
+              [textColor]="task.isCompleted || getRandomHeaderColor() === 'light' ? '' : 'white'"
+              class="mb-3">
+        <c-card-header>
+          <h2>{{ task.title }}</h2>
+          <small class="text-muted">{{ task.dateCreation | date }}</small> <!-- Creation Date -->
+        </c-card-header>
+
+        <c-card-body class="bg-gradient">
+          <!-- Task Description -->
+          <p>{{ task.description }}</p>
+
+          <!-- Task Category and Due Date -->
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Category: {{ task.category }}</li>
+            <li class="list-group-item">Due Date: {{ task.dueDate | date }}</li>
+          </ul>
+        </c-card-body>
+
+        <!-- Task Footer with Status and Buttons -->
+        <div class="card-footer bg-dark text-white">
+          <!-- Task Status -->
+          <div class="d-flex justify-content-between align-items-center">
+            <p class="font-weight-bold" [ngClass]="getStatusClass(task)">
+              {{ getStatus(task) }}
+            </p>
+
+            <!-- Buttons Section -->
+            <div>
+              <!-- In task-lists.component.html -->
+              <button *ngIf="!task.isCompleted" class="btn btn-success" (click)="completeTask(task)">
+                Complete
+              </button>
+
+
+              <button class="btn btn-primary" (click)="editTask(task)">Edit</button>
+              <button class="btn btn-danger" (click)="confirmDelete(task)">Delete</button>
+            </div>
+          </div>
+        </div>
+      </c-card>
+    </c-col>
+  </c-row>
+</div>
